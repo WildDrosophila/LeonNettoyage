@@ -29,7 +29,7 @@ public class CleanerController {
 	
 	@Autowired
 	private ICleanerService service;
-
+//
 	 @Autowired
 	    public JavaMailSender emailSender;	 
 	    
