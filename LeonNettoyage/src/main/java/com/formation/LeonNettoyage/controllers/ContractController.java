@@ -31,7 +31,7 @@ import com.formation.LeonNettoyage.services.ITargetService;
 import com.formation.LeonNettoyage.services.ITypeOfTargetService;
 
 @RestController
-	@RequestMapping(path="/contract")
+	@RequestMapping(path="/api/auth/contract")
 	public class ContractController {
 	
 	@Autowired

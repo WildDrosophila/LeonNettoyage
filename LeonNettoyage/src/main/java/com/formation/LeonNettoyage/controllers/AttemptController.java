@@ -32,7 +32,7 @@ public class AttemptController {
 		mapper = new ModelMapper();
 	}
 	
-	@RequestMapping(path = "/attemptlist", method = RequestMethod.GET) 
+	@RequestMapping(path = "/api/auth/attemptlist", method = RequestMethod.GET) 
 	public List<AttemptFull>findAll(){
 		
 		return serviceAttempt.findAll()

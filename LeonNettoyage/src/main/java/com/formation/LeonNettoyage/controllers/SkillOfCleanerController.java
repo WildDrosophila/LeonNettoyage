@@ -18,7 +18,7 @@ import com.formation.LeonNettoyage.services.impl.SkillOfCleanerService;
 
 
 @RestController
-@RequestMapping(path="/skillOfCleaner", method = RequestMethod.GET)
+@RequestMapping(path="/api/auth/skillOfCleaner", method = RequestMethod.GET)
 public class SkillOfCleanerController {
 	
 	@Autowired
